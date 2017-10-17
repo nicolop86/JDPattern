@@ -13,7 +13,7 @@ public class MainArraysDemo {
 		for(String element : stringList){
 			System.out.println(element);
 		}
-		
+		/*Generate IndexOutOfBoundsException*/
 		System.out.println(stringList.get(stringList.size()));
 	}
 
